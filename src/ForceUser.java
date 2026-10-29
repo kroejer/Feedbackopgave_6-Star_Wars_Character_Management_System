@@ -1,0 +1,3 @@
+interface ForceUser {
+    void useForce();
+}

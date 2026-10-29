@@ -35,8 +35,6 @@ Jonas, Oliver, Valdemar og Kasper
 ## **Udfordringer ved projektet:**
 
 
-
-
 ## **Tests vi har lavet:**
 
 | Test | Sådan udføres testen | Forventet resultat | Reelt resultat |
