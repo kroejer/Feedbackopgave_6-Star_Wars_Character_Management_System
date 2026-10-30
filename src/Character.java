@@ -1,6 +1,6 @@
 public class Character {
     protected String name;
-    int age;
+    protected int age;
 
     public Character(String name, int age) {
         this.name = name;

@@ -1,3 +1,4 @@
-interface ForceUser {
+public interface ForceUser {
+
     void useForce();
 }

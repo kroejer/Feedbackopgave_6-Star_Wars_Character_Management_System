@@ -1,4 +1,4 @@
-public class Jedi extends Character {
+public class Jedi extends Character implements ForceUser {
 
     public Jedi(String name, int age) {
         super(name, age);
@@ -14,9 +14,8 @@ public class Jedi extends Character {
         System.out.println(name + " is meditating");
     }
 
-    //Forsøg på at override goLive() metoden fra Character superklassen, men det giver fejl så derfor udkommenteret
-//    @Override
-//    public void goLive() {
-//        System.out.println("Jedi going live");
-//    }
+    @Override
+    public void useForce() {
+        System.out.println("Extra action: " + name + " uses the Force to move objects");
+    }
 }
