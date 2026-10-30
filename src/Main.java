@@ -9,7 +9,8 @@ void main() {
 
 
     for (Character character : characters) {
-        System.out.println("------------------------------");
+        System.out.println("-----------CHARACTER-----------");
+        System.out.println("-------------------------------");
         character.action();
         if (character instanceof Jedi) {
             ((Jedi)character).meditate();
@@ -20,9 +21,7 @@ void main() {
         if (character instanceof BountyHunter) {
             ((BountyHunter)character).hunt();
         }
-        System.out.println("------------------------------");
+        System.out.println("-------------------------------");
         System.out.println();
     }
-
-
 }

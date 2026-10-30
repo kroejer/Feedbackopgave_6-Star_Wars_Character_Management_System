@@ -37,6 +37,10 @@ er det kalder den på `hunt();` metoden, som kun findes i `BountyHunter();` subk
 * `final void goLive();`
 
 
+### **ForceUser** interface:
+#### Metoder inde i **ForceUser** interface:
+- `void useForce();`
+
 ### **Jedi** subklassen:
 #### Felter inde i **Jedi** subklassen:
 * Arver alle felter fra **Character** superklassen.
@@ -44,7 +48,7 @@ er det kalder den på `hunt();` metoden, som kun findes i `BountyHunter();` subk
 #### Metoder inde i **Jedi** subklassen:
 * Arver alle metoder fra **Character** superklassen.
 * `public Jedi(String name, int age);` (Konstruktøren)
-* `@Override public void action();`
+* `@Override public void action();` (@Override af arvet metode fra **Character** superklassen)
 * `public void meditate();`
 * `@Override public void useForce();` (Arvet fra **ForceUser** interface)
 
@@ -56,7 +60,7 @@ er det kalder den på `hunt();` metoden, som kun findes i `BountyHunter();` subk
 #### Metoder inde i **Sith** subklassen:
 * Arver alle metoder fra **Character** superklassen.
 * `public Sith(String name, int age);` (Konstruktøren)
-* `@Override public void action();`
+* `@Override public void action();` (@Override af arvet metode fra **Character** superklassen)
 * `@Override public void useForce();` (Arvet fra **ForceUser** interface)
 
 
@@ -68,7 +72,7 @@ er det kalder den på `hunt();` metoden, som kun findes i `BountyHunter();` subk
 #### Metoder inde i **Droid** subklassen:
 * Arver alle metoder fra **Character** superklassen.
 * `public Droid(String name, int age);` (Konstruktøren)
-* `@Override public void action();`
+* `@Override public void action();` (@Override af arvet metode fra **Character** superklassen)
 
 ### **CloneTrooper** subklassen:
 #### Felter inde i **CloneTrooper** subklassen:
@@ -77,7 +81,7 @@ er det kalder den på `hunt();` metoden, som kun findes i `BountyHunter();` subk
 #### Metoder inde i **CloneTrooper** subklassen:
 * Arver alle metoder fra **Character** superklassen.
 * `public CloneTrooper(String name, int age);` (Konstruktøren)
-* `@Override public void action();`
+* `@Override public void action();` (@Override af arvet metode fra **Character** superklassen)
 
 ### **BountyHunter** subklassen:
 #### Felter inde i **BountyHunter** subklassen:
@@ -86,26 +90,15 @@ er det kalder den på `hunt();` metoden, som kun findes i `BountyHunter();` subk
 #### Metoder inde i **BountyHunter** subklassen:
 * Arver alle metoder fra **Character** superklassen.
 * `public BountyHunter(String name, int age);` (Konstruktøren)
-* `@Override public void action();`
+* `@Override public void action();` (@Override af arvet metode fra **Character** superklassen)
 * `public void hunt();`
 
-### **ForceUser** interface:
-#### Metoder inde i **ForceUser** interface:
-- `void useForce();`
 
 ## **Udfordringer ved projektet:**
 
 
 ## **Tests vi har lavet:**
-
-| Test | Sådan udføres testen | Forventet resultat | Reelt resultat |
-|---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+Vi har ikke lavet nogle tests til denne feedbackopgave, da vi ikke føler det er 
+nødvendigt eller relevant for dette projekt. Projektet handler jo mere om at vise vi 
+har forstået OOP, arv og polymorfi, og hvordan man kan implementere det i et simpelt 
+character management system.
